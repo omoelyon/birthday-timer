@@ -1,0 +1,21 @@
+body {
+    background-image: grey;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+h3 {
+    background-color: orange;
+    color: green;
+    padding: 30px;
+    text-shadow: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.empty {
+    height: 20px;
+}

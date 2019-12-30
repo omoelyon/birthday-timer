@@ -9,9 +9,17 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-secondary">
+    <div class="container-fluid bg-primary">
         <div>
             <h1>my birthday COUNTDOWN</h1>
+            <p>enter your birthday</p>
+
+
+            <p id="time">0:0:0</p>
+            //the min attribute is to a pass a a minimum date and it is specified by javascript
+            <input type="date" id="date" min="" placeholder="event day">
+            <button  onclick="counting()" class="btn">enter</button>
+            <!-- <input type="number" id="year" placeholder="year" value="2019"> -->
             <h2>we have:</h2>
         </div>
         <div id="event">
